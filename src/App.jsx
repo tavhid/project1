@@ -10,6 +10,8 @@ const App = () => {
     <div className={`App ${theme}`}>
       <Header />
       Tavhid
+      Daler
+   
     </div>
   )
 }
