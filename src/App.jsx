@@ -9,6 +9,7 @@ const App = () => {
   return (
     <div className={`App ${theme}`}>
       <Header />
+      Tavhid
     </div>
   )
 }

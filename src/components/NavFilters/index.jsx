@@ -1,14 +1,14 @@
 import './index.sass'
 
-const Select = ({ child, value }) => {
+const Select = ({ children, value }) => {
   return (
-    { child }
+    { children }
   )
 }
 
-const Option = ({ child }) => {
+const Option = ({ children }) => {
   return (
-    { child }
+    { children }
   )
 }
 
@@ -18,10 +18,10 @@ const NavFilters = () => {
       
       <Select value='Год'>
         <Option>2017</Option>
-      </Select>
         <Option>2018</Option>
         <Option>2019</Option>
         <Option>2020</Option>
+      </Select>
 
     </div>
   )
